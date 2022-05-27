@@ -1,0 +1,28 @@
+{
+  "name": "testing",
+  "version": "0.0.1",
+  "description": "playing with npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "example":"node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykha123/npm-test.git"
+  },
+  "author": "tony",
+  "license": "ISC",
+
+  "dependencies": {
+    "jest": "^24.9.0" ,
+    "example": "^2.0.0"
+    
+  }
+
+  "bugs": {
+    "url": "https://github.com/tonykha123/npm-test/issues"
+  },
+  "homepage": "https://github.com/tonykha123/npm-test#readme"
+}
